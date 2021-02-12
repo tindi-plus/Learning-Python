@@ -23,8 +23,22 @@ def median(array):
     the median of the given array.
 
     """
-
     # sort the array in ascending order
-    array_sorted = np.sort(array)
+    array_sorted = np.sort(array, axis=None)
+
+    length = len(array_sorted)
+
+    if length % 2 == 1:
+        array_median = array_sorted[length // 2]
+    else:
+        array_median = (array_sorted[length // 2] + array_sorted[(length // 2) - 1]) / 2
+        return array_median
+
+
+
+test = np.random.randint(0, 4, 10).reshape(2, 5)
+print(test)
+
+print(median(test))
 
 
