@@ -2,7 +2,13 @@
 """
 Created on Sat Mar 13 16:25:26 2021.
 
-Munging date formats
+Munging date formats. The user sends in text with date different date formats and
+the scripts picks the dates and changes them from one format into the other.
+The formats are:
+042592
+04/25/1992
+April 25, 1992.
+Example: You can call me on 031599 or 09/22/1999 or December 10, 1999
 
 @author: Tindi.Sommers
 """
