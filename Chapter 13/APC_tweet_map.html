@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f7c7444f680414cb05350ad4fcf5d70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9f7c7444f680414cb05350ad4fcf5d70" ></div>
+        
+</body>
+<script>    
+    
+            var map_9f7c7444f680414cb05350ad4fcf5d70 = L.map(
+                "map_9f7c7444f680414cb05350ad4fcf5d70",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    locations: [9.084576, 8.674252],
+                    detectRetina: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86b5fdc1e9994e5d93ae986f3f53b2f5 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+            var marker_817dfb950deb4005a3ed44246ad17475 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_fa488d8d26ae4627bdbf0028ba8e913b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c05372d19774874a3273278331797ab = $(`<div id="html_9c05372d19774874a3273278331797ab" style="width: 100.0%; height: 100.0%;">GEORGEY79248715: @Tutsy22 @blackbody How possible is it for the youths to kick APC out when election results are written not counted… https://t.co/Do7h1ZFBtB</div>`)[0];
+            popup_fa488d8d26ae4627bdbf0028ba8e913b.setContent(html_9c05372d19774874a3273278331797ab);
+        
+
+        marker_817dfb950deb4005a3ed44246ad17475.bindPopup(popup_fa488d8d26ae4627bdbf0028ba8e913b)
+        ;
+
+        
+    
+    
+            var marker_db3cd2f003604aa0a5cd6354ca2e3fde = L.marker(
+                [32.2218917, -110.9262353],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_0efad0c692394ac5a465ae07cdca913f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c573ea89192c480cb1d8db798b88e7ec = $(`<div id="html_c573ea89192c480cb1d8db798b88e7ec" style="width: 100.0%; height: 100.0%;">KimDoss71: Sharlize gets her 15th HR of the season. Arizona up 9-0 B2. 7 runs so far in the inning with APC up with 1 out.</div>`)[0];
+            popup_0efad0c692394ac5a465ae07cdca913f.setContent(html_c573ea89192c480cb1d8db798b88e7ec);
+        
+
+        marker_db3cd2f003604aa0a5cd6354ca2e3fde.bindPopup(popup_0efad0c692394ac5a465ae07cdca913f)
+        ;
+
+        
+    
+    
+            var marker_ee58d18ced434092b19b68d02a4fc8ed = L.marker(
+                [32.2218917, -110.9262353],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_61275fdef30a4adb930ed25cca939bf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a49d9cff770647ce84fac4f7a3b4d5c4 = $(`<div id="html_a49d9cff770647ce84fac4f7a3b4d5c4" style="width: 100.0%; height: 100.0%;">KimDoss71: APC keeps it going with a bouncer to RF. This inning could last forever.</div>`)[0];
+            popup_61275fdef30a4adb930ed25cca939bf7.setContent(html_a49d9cff770647ce84fac4f7a3b4d5c4);
+        
+
+        marker_ee58d18ced434092b19b68d02a4fc8ed.bindPopup(popup_61275fdef30a4adb930ed25cca939bf7)
+        ;
+
+        
+    
+    
+            var marker_ae723961706e47cbb08e293a014116f5 = L.marker(
+                [20.0171109, 103.378253],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_5454ae7cbb7143b8aa4306cd16870927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb0c97aac59a42a69e04e0f03c3690f7 = $(`<div id="html_fb0c97aac59a42a69e04e0f03c3690f7" style="width: 100.0%; height: 100.0%;">newwavereports: Never doubt Buhari capability ― APC  The All Progressives Congress, APC, has on Sunday, May 2, 2021, said that the… https://t.co/JSiwA5Itag</div>`)[0];
+            popup_5454ae7cbb7143b8aa4306cd16870927.setContent(html_fb0c97aac59a42a69e04e0f03c3690f7);
+        
+
+        marker_ae723961706e47cbb08e293a014116f5.bindPopup(popup_5454ae7cbb7143b8aa4306cd16870927)
+        ;
+
+        
+    
+    
+            var marker_c8b82401444442e3b31aa8ea90e05514 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_98b6a1e5d6eb485692205982e2d698ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c02abb67efc2451bbb03af1bba726a8a = $(`<div id="html_c02abb67efc2451bbb03af1bba726a8a" style="width: 100.0%; height: 100.0%;">Harjaypick: @instablog9ja If school no work bandit go work God pünish APC, Bihari and Desmond Elliott https://t.co/sylKSKlbiO</div>`)[0];
+            popup_98b6a1e5d6eb485692205982e2d698ff.setContent(html_c02abb67efc2451bbb03af1bba726a8a);
+        
+
+        marker_c8b82401444442e3b31aa8ea90e05514.bindPopup(popup_98b6a1e5d6eb485692205982e2d698ff)
+        ;
+
+        
+    
+    
+            var marker_b5ab0a2393a0480283ee4dd188059413 = L.marker(
+                [26.2208914, 50.5000421],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_5bfc0c65ea9d43aea353a39d8a51908a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da81d7d23afb48e58ab7347d064abd8b = $(`<div id="html_da81d7d23afb48e58ab7347d064abd8b" style="width: 100.0%; height: 100.0%;">_juwclassic: Lambs from APC😂</div>`)[0];
+            popup_5bfc0c65ea9d43aea353a39d8a51908a.setContent(html_da81d7d23afb48e58ab7347d064abd8b);
+        
+
+        marker_b5ab0a2393a0480283ee4dd188059413.bindPopup(popup_5bfc0c65ea9d43aea353a39d8a51908a)
+        ;
+
+        
+    
+    
+            var marker_4eb946326e534501966de9061466b516 = L.marker(
+                [39.0149159, -76.92724365],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_5c82b1c97a4d4023a6881264e21255a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0983eaa69e7943188d47fbcc9d938c2b = $(`<div id="html_0983eaa69e7943188d47fbcc9d938c2b" style="width: 100.0%; height: 100.0%;">frank_oche: @TheNationNews Useless APC don&#39;t even have defense...</div>`)[0];
+            popup_5c82b1c97a4d4023a6881264e21255a2.setContent(html_0983eaa69e7943188d47fbcc9d938c2b);
+        
+
+        marker_4eb946326e534501966de9061466b516.bindPopup(popup_5c82b1c97a4d4023a6881264e21255a2)
+        ;
+
+        
+    
+    
+            var marker_7ec3407c0f914814bec26347e0866afe = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_f81b7aed233f4f908e7d094e63d7e152 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eb47eb2b9e94c20a29582b5a82d2f2c = $(`<div id="html_9eb47eb2b9e94c20a29582b5a82d2f2c" style="width: 100.0%; height: 100.0%;">OEvans2015: @channelstv National Assembly under an APC controlled govt</div>`)[0];
+            popup_f81b7aed233f4f908e7d094e63d7e152.setContent(html_9eb47eb2b9e94c20a29582b5a82d2f2c);
+        
+
+        marker_7ec3407c0f914814bec26347e0866afe.bindPopup(popup_f81b7aed233f4f908e7d094e63d7e152)
+        ;
+
+        
+    
+    
+            var marker_dbe21350355646e283a181ce0fc75881 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_8e6f8c2454bc459eba0e32f349aca30f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e81307aabf646569f38a82e57357ed7 = $(`<div id="html_3e81307aabf646569f38a82e57357ed7" style="width: 100.0%; height: 100.0%;">Afambuuchenna: @stgorzhye Person that put that APC logo and that change is mad  Change ike nsi😠</div>`)[0];
+            popup_8e6f8c2454bc459eba0e32f349aca30f.setContent(html_3e81307aabf646569f38a82e57357ed7);
+        
+
+        marker_dbe21350355646e283a181ce0fc75881.bindPopup(popup_8e6f8c2454bc459eba0e32f349aca30f)
+        ;
+
+        
+    
+    
+            var marker_5019313c089546aa8fda7d8c8173d2b3 = L.marker(
+                [60.1674086, 24.9425683],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_a0e36f86acbe4bfcab14653214727472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ad5ba2899146a0aa5c271457e34454 = $(`<div id="html_41ad5ba2899146a0aa5c271457e34454" style="width: 100.0%; height: 100.0%;">paparazzy02: @channelstv I weep for Nigeria.  This guy shouldn’t be a minister in a sane country.  Doesn’t these APC ministers t… https://t.co/2Bs9E9HKNZ</div>`)[0];
+            popup_a0e36f86acbe4bfcab14653214727472.setContent(html_41ad5ba2899146a0aa5c271457e34454);
+        
+
+        marker_5019313c089546aa8fda7d8c8173d2b3.bindPopup(popup_a0e36f86acbe4bfcab14653214727472)
+        ;
+
+        
+    
+    
+            var marker_5a794567b71b4fc4b023f5da21a59558 = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_efe175ea0d1048398ce9558eb856865a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f67d1b8867d4588bf3cb91b6baf0140 = $(`<div id="html_4f67d1b8867d4588bf3cb91b6baf0140" style="width: 100.0%; height: 100.0%;">Authenticatedye: No truth In APC. they are all betrayals.</div>`)[0];
+            popup_efe175ea0d1048398ce9558eb856865a.setContent(html_4f67d1b8867d4588bf3cb91b6baf0140);
+        
+
+        marker_5a794567b71b4fc4b023f5da21a59558.bindPopup(popup_efe175ea0d1048398ce9558eb856865a)
+        ;
+
+        
+    
+    
+            var marker_df5f8c482c7740029fdfbe7c95ec5201 = L.marker(
+                [53.5120412, -2.2434612],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_77750c941844454f8edc622d991bc4db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cde09731fac450b8282d9d4ac9cc145 = $(`<div id="html_8cde09731fac450b8282d9d4ac9cc145" style="width: 100.0%; height: 100.0%;">fettygenius: PDP, oppositions likely behind insecurity – APC https://t.co/luHATanwPU</div>`)[0];
+            popup_77750c941844454f8edc622d991bc4db.setContent(html_8cde09731fac450b8282d9d4ac9cc145);
+        
+
+        marker_df5f8c482c7740029fdfbe7c95ec5201.bindPopup(popup_77750c941844454f8edc622d991bc4db)
+        ;
+
+        
+    
+    
+            var marker_ed74af1ba9444923990655ad07a177c9 = L.marker(
+                [9.0643305, 7.4892974],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_f7a7e8813e64456b9a472de6fdcaa9a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6994f266424f56be4e98ffe5b42f81 = $(`<div id="html_ce6994f266424f56be4e98ffe5b42f81" style="width: 100.0%; height: 100.0%;">surajimam: @channelstv Mr Governor, are you sure you are not reading this from an Apc script......only God can deal with you leaders for us</div>`)[0];
+            popup_f7a7e8813e64456b9a472de6fdcaa9a4.setContent(html_ce6994f266424f56be4e98ffe5b42f81);
+        
+
+        marker_ed74af1ba9444923990655ad07a177c9.bindPopup(popup_f7a7e8813e64456b9a472de6fdcaa9a4)
+        ;
+
+        
+    
+    
+            var marker_5c4a9e4656724b8db12c7808124125db = L.marker(
+                [6.4550575, 3.3941795],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_7e305b3707ed46f5923dac530b18877e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3227f41276e04298b428a064c31cebac = $(`<div id="html_3227f41276e04298b428a064c31cebac" style="width: 100.0%; height: 100.0%;">jidesports: @DubemEkunie APC cretins are not disenchanted about there incompetent government, it is Macaroni that is your problem 🙄</div>`)[0];
+            popup_7e305b3707ed46f5923dac530b18877e.setContent(html_3227f41276e04298b428a064c31cebac);
+        
+
+        marker_5c4a9e4656724b8db12c7808124125db.bindPopup(popup_7e305b3707ed46f5923dac530b18877e)
+        ;
+
+        
+    
+    
+            var marker_ff687089abd746c3b9cc2572a6402dea = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_ac554d9c5c7c4b68ab41414f0bd38c37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d05f2b8e18374b7c9398f05a26d7e98a = $(`<div id="html_d05f2b8e18374b7c9398f05a26d7e98a" style="width: 100.0%; height: 100.0%;">Real_Mekz: @fkeyamo It&#39;ll be so petty of anyone to claim that Mbaka asked for contracts from APC&#39;s FG if he doesn&#39;t own or run… https://t.co/WFWrO35qYb</div>`)[0];
+            popup_ac554d9c5c7c4b68ab41414f0bd38c37.setContent(html_d05f2b8e18374b7c9398f05a26d7e98a);
+        
+
+        marker_ff687089abd746c3b9cc2572a6402dea.bindPopup(popup_ac554d9c5c7c4b68ab41414f0bd38c37)
+        ;
+
+        
+    
+    
+            var marker_7cee622e1ded4aa1a760ab17ac2f2c51 = L.marker(
+                [-26.205, 28.049722],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_2487b30b454640cdb6fb83f7eb9f9136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0251c8142c4b4696b17b07db8443b335 = $(`<div id="html_0251c8142c4b4696b17b07db8443b335" style="width: 100.0%; height: 100.0%;">JohnMphatsoe: @ThembaGodi_ Cde, is APC contesting LGE this year?</div>`)[0];
+            popup_2487b30b454640cdb6fb83f7eb9f9136.setContent(html_0251c8142c4b4696b17b07db8443b335);
+        
+
+        marker_7cee622e1ded4aa1a760ab17ac2f2c51.bindPopup(popup_2487b30b454640cdb6fb83f7eb9f9136)
+        ;
+
+        
+    
+    
+            var marker_0d9135251d134e649e9c7e72f310b045 = L.marker(
+                [44.4308975, -89.6884637],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_f32d86d73db04ae089c2900bec409049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08ed9631f7974eebbee298fbf89c63d9 = $(`<div id="html_08ed9631f7974eebbee298fbf89c63d9" style="width: 100.0%; height: 100.0%;">OjomuK: @TheNationNews Apc is the PARTY OF JİHADİSM, TERRORİSM, TRİBALİSM  We didnt experiece nonsense during obasanjo  You… https://t.co/4dGCfWU8DZ</div>`)[0];
+            popup_f32d86d73db04ae089c2900bec409049.setContent(html_08ed9631f7974eebbee298fbf89c63d9);
+        
+
+        marker_0d9135251d134e649e9c7e72f310b045.bindPopup(popup_f32d86d73db04ae089c2900bec409049)
+        ;
+
+        
+    
+    
+            var marker_df8613a4b45d4ec490670b22b1cf2552 = L.marker(
+                [6.4550575, 3.3941795],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_e7fa8141dcc7408f98cdc8081c9eaeda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_239a2764214b4f3ba87567415e097c2e = $(`<div id="html_239a2764214b4f3ba87567415e097c2e" style="width: 100.0%; height: 100.0%;">lifeiswealth: @channelstv This APC government is always blaming someone for their failure. People did not vote you to blame but t… https://t.co/LuoOvfT4KB</div>`)[0];
+            popup_e7fa8141dcc7408f98cdc8081c9eaeda.setContent(html_239a2764214b4f3ba87567415e097c2e);
+        
+
+        marker_df8613a4b45d4ec490670b22b1cf2552.bindPopup(popup_e7fa8141dcc7408f98cdc8081c9eaeda)
+        ;
+
+        
+    
+    
+            var marker_92e996e2d14c4374af68c62c205c07fd = L.marker(
+                [9.0862713, 7.4943746],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_39ff6660755f4459a440f3b5d4e77a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9797010baf9447e491d976f112a4ee35 = $(`<div id="html_9797010baf9447e491d976f112a4ee35" style="width: 100.0%; height: 100.0%;">Olufemiolojo: Tinubu knows that the clamor for secession was limited to Southeast before APC came to power, but today it is wide… https://t.co/iLD0r3ZBog</div>`)[0];
+            popup_39ff6660755f4459a440f3b5d4e77a42.setContent(html_9797010baf9447e491d976f112a4ee35);
+        
+
+        marker_92e996e2d14c4374af68c62c205c07fd.bindPopup(popup_39ff6660755f4459a440f3b5d4e77a42)
+        ;
+
+        
+    
+    
+            var marker_a79997f3cda34f9ab49119c789904681 = L.marker(
+                [20.0171109, 103.378253],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_96c74e819ee84d0da25dc0a2b72672dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b2ea0b4337f495181061b85c793d68f = $(`<div id="html_0b2ea0b4337f495181061b85c793d68f" style="width: 100.0%; height: 100.0%;">24hrsReport: Kaduna Ruling Party, APC Disqualifies 3 Local Government Chairmen Over Financial Mismanagement, Others https://t.co/ua5VeKQS2a</div>`)[0];
+            popup_96c74e819ee84d0da25dc0a2b72672dd.setContent(html_0b2ea0b4337f495181061b85c793d68f);
+        
+
+        marker_a79997f3cda34f9ab49119c789904681.bindPopup(popup_96c74e819ee84d0da25dc0a2b72672dd)
+        ;
+
+        
+    
+    
+            var marker_be39258d323145faae18a0344228077a = L.marker(
+                [9.6000359, 7.9999721],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_5c29581a7ef846b8994c9e28f964fbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86027d9df1b646cbb40540ee4841eb4e = $(`<div id="html_86027d9df1b646cbb40540ee4841eb4e" style="width: 100.0%; height: 100.0%;">themetromag: Insecurity: There will be no election in 2023 – APC chieftain https://t.co/9LqU1iMwIT</div>`)[0];
+            popup_5c29581a7ef846b8994c9e28f964fbb1.setContent(html_86027d9df1b646cbb40540ee4841eb4e);
+        
+
+        marker_be39258d323145faae18a0344228077a.bindPopup(popup_5c29581a7ef846b8994c9e28f964fbb1)
+        ;
+
+        
+    
+    
+            var marker_032949f7e64240478c2fa435a2d829b2 = L.marker(
+                [6.4550575, 3.3941795],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_b12ce3ddb2df4ce69e0aca7edc9752d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c1c3163f2864a8f93b75bf8888dd931 = $(`<div id="html_9c1c3163f2864a8f93b75bf8888dd931" style="width: 100.0%; height: 100.0%;">Timtrice3: @thecableng @OfficialAPCNg @OfficialPDPNig But APC  did the same to PDP in 2015</div>`)[0];
+            popup_b12ce3ddb2df4ce69e0aca7edc9752d9.setContent(html_9c1c3163f2864a8f93b75bf8888dd931);
+        
+
+        marker_032949f7e64240478c2fa435a2d829b2.bindPopup(popup_b12ce3ddb2df4ce69e0aca7edc9752d9)
+        ;
+
+        
+    
+    
+            var marker_a376a5e48f854be5bcecc39934dbec3d = L.marker(
+                [6.2100945, 7.0741145],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_b79cc2ee12804d46b911e53bd117bc0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c87a4f74084540c28fe241cb32541ad3 = $(`<div id="html_c87a4f74084540c28fe241cb32541ad3" style="width: 100.0%; height: 100.0%;">akachukwu_nweke: Chai! Eedris I concur with. Apc govt is a terrorist party.</div>`)[0];
+            popup_b79cc2ee12804d46b911e53bd117bc0d.setContent(html_c87a4f74084540c28fe241cb32541ad3);
+        
+
+        marker_a376a5e48f854be5bcecc39934dbec3d.bindPopup(popup_b79cc2ee12804d46b911e53bd117bc0d)
+        ;
+
+        
+    
+    
+            var marker_04d2eed3d6e44ce38cee2caae2633f9b = L.marker(
+                [25.3014957, 51.4996673988223],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_7066428b428a4c1c98dee2a3d5dc7d8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26ae33a27e4941dd9b6dc10f17153627 = $(`<div id="html_26ae33a27e4941dd9b6dc10f17153627" style="width: 100.0%; height: 100.0%;">julietezenwonwu: @daily_trust DSS are APC dogs. It’s very clear to us al.</div>`)[0];
+            popup_7066428b428a4c1c98dee2a3d5dc7d8a.setContent(html_26ae33a27e4941dd9b6dc10f17153627);
+        
+
+        marker_04d2eed3d6e44ce38cee2caae2633f9b.bindPopup(popup_7066428b428a4c1c98dee2a3d5dc7d8a)
+        ;
+
+        
+    
+    
+            var marker_9388f66328604240bccc52a732d4c0d2 = L.marker(
+                [6.4550575, 3.3941795],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_b568a054067d44609c31506ca9760e46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3b3b6ed201e4a258393cae952da6cb0 = $(`<div id="html_b3b3b6ed201e4a258393cae952da6cb0" style="width: 100.0%; height: 100.0%;">rifnote: Kaduna Ruling Party, APC Disqualifies 3 Local Government Chairmen Over Financial Mismanagement, Others https://t.co/3oKG40uARp</div>`)[0];
+            popup_b568a054067d44609c31506ca9760e46.setContent(html_b3b3b6ed201e4a258393cae952da6cb0);
+        
+
+        marker_9388f66328604240bccc52a732d4c0d2.bindPopup(popup_b568a054067d44609c31506ca9760e46)
+        ;
+
+        
+    
+    
+            var marker_9d318a9bb515481aabd77dec17300591 = L.marker(
+                [9.083333, 6.016667],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_97a281e9211b44e09c7212e6764fc8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1899d24f4f5e487cb9fe6bea1916921d = $(`<div id="html_1899d24f4f5e487cb9fe6bea1916921d" style="width: 100.0%; height: 100.0%;">nupehittrack: News: APC: Tinubu reacts to Buhari’s position on tenure of Oyegun, others https://t.co/Qz3tT8R2Dj</div>`)[0];
+            popup_97a281e9211b44e09c7212e6764fc8c5.setContent(html_1899d24f4f5e487cb9fe6bea1916921d);
+        
+
+        marker_9d318a9bb515481aabd77dec17300591.bindPopup(popup_97a281e9211b44e09c7212e6764fc8c5)
+        ;
+
+        
+    
+    
+            var marker_ccbc88b840ff4e40ba75d3893f55b417 = L.marker(
+                [48.3973944, 9.9932755],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_1d4faa77c0594f73bcd962dfc642f0d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6886a6ca4bf460ead67e7b806605728 = $(`<div id="html_c6886a6ca4bf460ead67e7b806605728" style="width: 100.0%; height: 100.0%;">rhotezamani: APC he no go better to una</div>`)[0];
+            popup_1d4faa77c0594f73bcd962dfc642f0d2.setContent(html_c6886a6ca4bf460ead67e7b806605728);
+        
+
+        marker_ccbc88b840ff4e40ba75d3893f55b417.bindPopup(popup_1d4faa77c0594f73bcd962dfc642f0d2)
+        ;
+
+        
+    
+    
+            var marker_b0500f6f1e164aa7a2880518c52e1b8a = L.marker(
+                [25.0474913, -77.3067827974521],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_67a6ebd5aad2426ab074df8cbe15bd55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f033a2211bb4e2d999ae5e27e745850 = $(`<div id="html_5f033a2211bb4e2d999ae5e27e745850" style="width: 100.0%; height: 100.0%;">danmusabi: Like apc after 16 years of pdp!</div>`)[0];
+            popup_67a6ebd5aad2426ab074df8cbe15bd55.setContent(html_5f033a2211bb4e2d999ae5e27e745850);
+        
+
+        marker_b0500f6f1e164aa7a2880518c52e1b8a.bindPopup(popup_67a6ebd5aad2426ab074df8cbe15bd55)
+        ;
+
+        
+    
+    
+            var marker_a73e25126b9847a6ae57e999ebf68876 = L.marker(
+                [7.3777462, 3.8972497],
+                {}
+            ).addTo(map_9f7c7444f680414cb05350ad4fcf5d70);
+        
+    
+        var popup_46729ab52cc94e39b048e5b7bdf53d14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9626b7333494ff79895cfffa5ce7704 = $(`<div id="html_f9626b7333494ff79895cfffa5ce7704" style="width: 100.0%; height: 100.0%;">AA_Adelodun: @dondekojo Apc run people street no be small😪</div>`)[0];
+            popup_46729ab52cc94e39b048e5b7bdf53d14.setContent(html_f9626b7333494ff79895cfffa5ce7704);
+        
+
+        marker_a73e25126b9847a6ae57e999ebf68876.bindPopup(popup_46729ab52cc94e39b048e5b7bdf53d14)
+        ;
+
+        
+    
+</script>

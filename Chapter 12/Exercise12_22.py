@@ -46,7 +46,7 @@ while True:
             r.adjust_for_ambient_noise(source, duration=0.5)
             
             # listen to the user input
-            audio = r.listen(source)
+            audio = r.listen(source, timeout=10, phrase_time_limit=10)
             
             # translate the speech to text using Google
             text = r.recognize_google(audio)
@@ -56,6 +56,7 @@ while True:
             print(text, end='\n')
             
             if text == 'please exit':
+                speak_en('Thank you for using this service. Goodbye.')
                 break
             
             # translate the text to the choosen language
