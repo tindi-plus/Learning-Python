@@ -16,7 +16,7 @@ import os
 r = sr.Recognizer()
 
 def speak_en(command):
-    """Convert text to speech"""
+    """Convert English text to speech"""
     # initialize the pyttsx3 engine
     engine = pyttsx3.init()
     engine.say(command)

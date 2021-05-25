@@ -38,4 +38,3 @@ stripped_text = [lowerstrip(t) for t in clean]
 
 for text in stripped_text:
     print(text)
-    print()
