@@ -20,7 +20,7 @@ print(nyc.head(5))
 
 # split the data for training and testing
 X_train, X_test, y_train, y_test = train_test_split(nyc.Date.values.reshape(-1, 1),
-    nyc.Temperature.values, random_state=11)
+    nyc.Temperature.values, random_state=11,)
 
 # train the data
 l_r.fit(X=X_train, y=y_train)
@@ -33,3 +33,15 @@ print(f'{predicted[3]} : {expected[3]}')
 # visualize the data
 axes = sns.scatterplot(data=nyc, x='Date', y='Temperature', hue='Temperature',
     palette='winter', legend=False)
+
+
+####################################################################
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, Dense, Flatten, MaxPooling2D
+import numpy as np
+import os
+np.random.choice()
+cnn = Sequential()
+cnn.add(Conv2D(filters=64, kernel_size=(3, 3), strides=(2, 2), activation='relu', input_shape=(28, 28, 1)))
+os.listdir()
