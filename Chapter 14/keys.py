@@ -1,3 +1,0 @@
-speech_to_text_key = 'pq4XbNKhx8TUnSywNPz7KQN_1s5RAiz3pQWDGrQXxJLO'
-text_to_speech_key = 'Gh0O7Cz4eIqf8_qc3FdUWCjHTH7LIUJHp0kyuOMo3clI'
-translate_key = 'GhD1VS22hSXy0__WRKWpPHZ12RM5SSvDmKAnCaPvgFlF'
